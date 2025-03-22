@@ -53,9 +53,22 @@ Add your answers to this markdown file.
   $T(10000) \approx 6.6664$  
   Thus, I'd guess T(10000) would take 6.6664 seconds.  
 
-- You measure the time with 10,000 elements and it takes 100 seconds! List 3
-  reasons why this could be the case, given that reasoning with the asymptotic
-  complexity suggests a different time.  
+## Question 3
+
+  Perhaps I'm running this code on a toaster, and while 1000 elements is well
+  within it's capabilities, 10000 has it stretched a little too thin, resulting
+  in a lot of time being lost to overhead.  
+
+  Perhaps my implimentation of a BST was deeply flawed, and that combined with
+  a really weird data set is resulting in an extremely off balance tree,
+  causing the program to need to search far deeper than should be necessary.
+  Or my algorithm to find the element was poorly implimented, and my code
+  checks every single node, even after the element is found, 'cause I didn't
+  include a break statement. I guess poor coding would be the general idea here.  
+
+  Maybe I'm not running the code on a toaster, but I forgot to close a couple
+  hundred chrome tabs, and all the extra system resources that those tabs are
+  consuming is really throttling my program's performance.  
 
 # Resources
 
