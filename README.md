@@ -16,8 +16,7 @@ Add your answers to this markdown file.
 
 # Questions & Answers
 
-- List 3 reasons why asymptotic analysis may be misleading with respect to
-  actual performance in practice.  
+## Question 1
   
   Asymptotic analysis focuses on how an algorithm behaves for large input sizes,
   so when dealing with small data sets, an algorithm with poorer asymptotic
@@ -41,10 +40,7 @@ Add your answers to this markdown file.
   in C vs Python, when sorting large data sets, could result in dramatically
   different real world performances.  
 
-  - Suppose finding a particular element in a binary search tree with 1,000
-  elements takes 5 seconds. Given what you know about the asymptotic complexity
-  of search in a binary search tree, how long would you guess finding the same
-  element in a search tree with 10,000 elements takes? Explain your reasoning.  
+## Question 2
 
   A BST has a asymptotic complexity of $O(log_{2} n)$. Knowing that $T(n)$ for
   $n=1000$ takes 5 seconds, we can calculate a ratio, $c$, by which we can
