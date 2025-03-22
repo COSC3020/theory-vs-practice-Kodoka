@@ -28,9 +28,9 @@ Add your answers to this markdown file.
   exclusively on the dominant term. For example an algorithm with a complexity
   of $4n^2+n$ gets baked down to $O(n^2)$. Sure, as our data set approaches
   an infinite quantity of entries, those constants and lower order terms mean
-  very little, but in the real world those eccentricities still mean something.
-  Asymptotic analysis doesn't account for what language a program is written in.  
+  very little, but in the real world those eccentricities still mean something.  
   
+  Asymptotic analysis doesn't account for what language a program is written in.
   Broadly speaking different programming languages are capable of performing the
   same tasks; however, they perform these tasks with different efficacies. A
   significant distinction is compiled vs interpreted languages. Compiled
