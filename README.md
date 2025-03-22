@@ -46,9 +46,9 @@ Add your answers to this markdown file.
   $n=1000$ takes 5 seconds, we can calculate a ratio, $c$, by which we can
   calculate $T(10000)$.  
   $c \cdot \log_{2} 1000 = 5$  
-  $c = frac{5}{\log_{2} 1000}$  
+  $c = \frac{5}{\log_{2} 1000}$  
   Using that ratio, $c$  
-  $T(10000) = frac{5}{\log_{2} 1000} \cdot \log(10000)$  
+  $T(10000) = \frac{5}{\log_{2} 1000} \cdot \log(10000)$  
   $T(10000) \approx 0.5017 \cdot 13.2877$  
   $T(10000) \approx 6.6664$  
   Thus, I'd guess T(10000) would take 6.6664 seconds.  
