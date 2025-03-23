@@ -55,9 +55,13 @@ Add your answers to this markdown file.
 
 ## Question 3
 
-  Perhaps I'm running this code on a toaster, and while 1000 elements is well
-  within it's capabilities, 10000 has it stretched a little too thin, resulting
-  in a lot of time being lost to overhead.  
+  I'm combining two of my previous answers, as they were ostensibly the same
+  main idea.  
+
+  Hardware limitations, like a slow CPU, or limited RAM could allow for small
+  data sets to be processed relatively quickly, but larger data sets that
+  don't fully fit into your CPU's cache, or main memory could lose a lot of
+  time loading, and being moved around the file system.  
 
   Perhaps my implimentation of a BST was deeply flawed, and that combined with
   a really weird data set is resulting in an extremely off balance tree,
@@ -66,9 +70,13 @@ Add your answers to this markdown file.
   checks every single node, even after the element is found, 'cause I didn't
   include a break statement. I guess poor coding would be the general idea here.  
 
-  Maybe I'm not running the code on a toaster, but I forgot to close a couple
-  hundred chrome tabs, and all the extra system resources that those tabs are
-  consuming is really throttling my program's performance.  
+  Another thing that could cause unexpected differences in performances with
+  larger data sets is what I suspect is taking my in place merge sort program
+  such an absurd amount of time to finish testing, 71 minutes as of the time of
+  writing, many memory operations. Merge sort isn't BST, but the point is
+  operations that take a negligible amount of time for a small data set have
+  the potential to scale up to a massive performance bottleneck for larger
+  data sets.  
 
 # Resources
 
