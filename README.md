@@ -70,13 +70,9 @@ Add your answers to this markdown file.
   checks every single node, even after the element is found, 'cause I didn't
   include a break statement. I guess poor coding would be the general idea here.  
 
-  Another thing that could cause unexpected differences in performances with
-  larger data sets is what I suspect is taking my in place merge sort program
-  such an absurd amount of time to finish testing, 71 minutes as of the time of
-  writing, many memory operations. Merge sort isn't BST, but the point is
-  operations that take a negligible amount of time for a small data set have
-  the potential to scale up to a massive performance bottleneck for larger
-  data sets.  
+  At the time we process our 10,000 element data set, the computer could've been
+  running hard for an extensive period, causing it to overheat, resulting in
+  severely throttled performance.
 
 # Resources
 
